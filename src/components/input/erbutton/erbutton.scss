@@ -1,0 +1,23 @@
+@import '@scss/_variables.scss';
+@import '@scss/_mixin.scss';
+
+.erbtn-primary {
+  background-color: $primary-color;
+  padding: 20px 40px;
+  font-weight: 500;
+  transition: all .3s linear 0s;
+  width: fit-content;
+  border-radius: 0;
+  border: 0;
+  @include font-text;
+  &:hover {
+    background-color: #141c27;
+
+  }
+
+  .ericon-btn {
+    margin-left:5px ;
+  }
+
+}
+

@@ -1,0 +1,28 @@
+
+@import '@scss/_variables.scss';
+aside {
+  height: 100vh;
+  position: fixed;
+  background-color: $bg-secondary;
+  border-right:2px solid #151c25;
+}
+.navigation-list {
+  list-style-type: none;
+  padding: 30px;
+  max-height: 730px;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  a{
+    text-decoration: none;
+  }
+}
+
+.logo-container {
+  background-color: $bg-third;
+  padding: 50px;
+}

@@ -1,0 +1,51 @@
+@import '@scss/_variables.scss';
+@import '@scss/_mixin.scss';
+@import 'animate.css';
+
+.navitem {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  @include font-text;
+  color: white;
+  > * {
+    display: inline-block;
+  }
+  margin-top: 30px;
+  width: 200px;
+  border:1px solid hsla(0, 0%, 100%, .1) !important;
+  border-radius: 5px !important;
+  .icon-item {
+      transform: none;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      padding: 15px;
+      line-height: 25px;
+      text-align: center;
+      border-radius: 5px;
+      margin-right: 17px;
+      font-size: 24px;
+      background-color: $bg-fourth;
+  }
+}
+
+.roulete-animation {
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 400ms ease;
+  transform: translateY(5px) translateZ(0);
+}
+
+.active-bg {
+  background-color: $primary-color !important;
+}
+.active {
+  color: $primary-color !important;
+  transition-delay: none !important;
+
+}

@@ -1,0 +1,9 @@
+@import-normalize;
+
+#root {
+  height: 100vh;
+}
+
+#app-container {
+  height: 100%;
+}

@@ -1,0 +1,37 @@
+@import '@scss/_variables.scss';
+.er-select-lang {
+  position: fixed;
+  right: 10px;
+  z-index: 1000;
+  top: 20px;
+  margin-right: 20px;
+  border: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+  border-radius: 5px !important;
+  &:checked {
+    background-color: $primary-color;
+  }
+
+  .dropdown-menu {
+      width: 50px !important;
+      background-color: $bg-secondary;
+      max-width: 50px;
+      min-width: 50px;
+      a {
+        width: 50px;
+        max-width: 50px;
+        min-width: 50px;
+      }
+    }
+  .er-item-select-lang {
+    background-color: $bg-secondary;
+    &:checked {
+        background-color: $primary-color;
+      }
+    width: 50px;
+
+    img {
+      width:20px;
+    }
+  }
+}
+

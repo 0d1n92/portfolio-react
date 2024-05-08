@@ -1,0 +1,5 @@
+@function randomNum($min, $max) {
+  $rand: random(); // Genera un numero casuale tra 0 e 1
+  $randomNum: $min + floor($rand * (($max - $min) / 50)) * 50; // Arrotonda al multiplo di 50 più vicino
+  @return $randomNum;
+}
