@@ -21,7 +21,7 @@ export const ErButton = ( {title, icon = false, type="primary", action, size="lg
   // eslint-disable-next-line react-hooks/exhaustive-deps
   ,[]);
   return (
-  <Button size='sm' className={classBtn} href={action} >
+  <Button  size='sm' className={classBtn} href={action} >
     {title}
     {icon?
       <FontAwesomeIcon className="ericon-btn" icon={icon} /> : null

@@ -5,6 +5,7 @@ aside {
   position: fixed;
   background-color: $bg-secondary;
   border-right:2px solid #151c25;
+  z-index: 1000;
 }
 .navigation-list {
   list-style-type: none;
@@ -22,7 +23,14 @@ aside {
   }
 }
 
+.er-nav {
+  display: none;
+}
 .logo-container {
   background-color: $bg-third;
-  padding: 50px;
+  padding: 25px;
+}
+
+.er-nav-mobile {
+  padding: 25px;
 }

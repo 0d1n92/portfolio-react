@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import '_variables.scss';
 @import '~bootstrap/scss/bootstrap';
 @import "~@fontsource/poppins"; // Defaults to weight 400
 @import "~@fontsource/poppins/400.css"; // Specify weight
@@ -9,4 +9,33 @@ body {
   background-color: $bg-black;
   color: white;
 
+}
+
+.height-full {
+  height: 100% !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navigation-list {
+  list-style-type: none;
+  padding: 30px;
+  max-height: 730px;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+
+  a {
+    text-decoration: none;
+  }
+}
+.full-screen {
+  height: 100vh !important;
 }

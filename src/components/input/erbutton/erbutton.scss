@@ -14,7 +14,11 @@
     background-color: #141c27;
 
   }
-
+    @media (max-width: $breakpoint-tablet) {
+      padding: 10px 20px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
   .ericon-btn {
     margin-left:5px ;
   }

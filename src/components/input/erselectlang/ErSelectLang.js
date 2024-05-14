@@ -20,7 +20,7 @@ useEffect (()=> {
 
 	return (
 		<Dropdown className="er-select-lang" onSelect={handleSelect}>
-			<Dropdown.Toggle className="er-item-select-lang">
+			<Dropdown.Toggle className="er-item-select-lang er-selected-item ">
 				<img src={selectedLang.img} alt={selectedLang.code} />
 			</Dropdown.Toggle>
 			<Dropdown.Menu>

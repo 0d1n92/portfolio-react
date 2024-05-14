@@ -2,8 +2,8 @@
 .er-select-lang {
   position: fixed;
   right: 10px;
-  z-index: 1000;
-  top: 20px;
+  z-index: 10000;
+  top: 15px;
   margin-right: 20px;
   border: 1px solid hsla(0, 0%, 100%, 0.1) !important;
   border-radius: 5px !important;
@@ -17,21 +17,23 @@
       max-width: 50px;
       min-width: 50px;
       a {
-        width: 50px;
-        max-width: 50px;
-        min-width: 50px;
+        width: 40px;
+        max-width: 40px;
+        min-width: 40px;
       }
     }
   .er-item-select-lang {
     background-color: $bg-secondary;
+    border: none !important;
     &:checked {
         background-color: $primary-color;
       }
     width: 50px;
-
     img {
       width:20px;
     }
   }
+
+
 }
 

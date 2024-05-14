@@ -1,0 +1,25 @@
+@import '@scss/_variables.scss';
+.er-navbar-mobile {
+  background-color:$bg-secondary;
+  border-bottom: 2px solid #151c25;
+  position: fixed;
+  height: 63px;
+  transition: height 1s !important;
+  overflow: hidden;
+   z-index: 1000;
+  box-sizing: border-box;
+  top: 0;
+  .xs-menu {
+    background-color: $bg-secondary;
+  }
+  width: 100%;
+  .hamburger-icon {
+    color: $primary-color;
+    margin: 20px;
+  }
+
+
+
+
+}
+
